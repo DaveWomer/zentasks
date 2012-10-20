@@ -1,0 +1,16 @@
+--- 
+applications: 
+  dist/zentask-1.0.zip: 
+    framework: 
+      name: play
+      info: 
+        exec: 
+        description: Play Framework Application
+        mem: 256M
+    instances: 1
+    mem: 256M
+    url: dw-zentasks.cloudfoundry.com
+    name: zentasks
+    services: 
+      tasks-db: 
+        type: postgresql
