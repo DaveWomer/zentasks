@@ -9,7 +9,7 @@ users:
         password:   secret
     
     - !!models.User
-        email:      maxime@sample.com
+        email:      dave@sample.com
         name:       Maxime Dantec
         password:   secret
     
